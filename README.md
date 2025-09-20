@@ -1,48 +1,50 @@
-# 📊 Sales Performance Dashboard
+# Sales Performance Dashboard
 
 A comprehensive, interactive sales analytics dashboard built with Streamlit and Plotly. This project demonstrates advanced data visualization, business intelligence, and dashboard development skills.
 
-## 🎯 Project Overview
+**Live Demonstration:** [https://larissalesdashboard.streamlit.app/](https://larissalesdashboard.streamlit.app/)
+
+## Project Overview
 
 This dashboard provides real-time sales analytics with interactive filtering, trend analysis, and performance monitoring. It's designed to help business stakeholders make data-driven decisions through intuitive visualizations and comprehensive metrics.
 
-## ✨ Key Features
+## Key Features
 
-### 📈 Analytics Capabilities
+### Analytics Capabilities
 - **Real-time Sales Metrics**: Revenue, profit, margins, and growth rates
 - **Interactive Filtering**: Date range, region, product, and sales rep filters
 - **Trend Analysis**: Time series analysis with seasonality detection
 - **Performance Monitoring**: KPI tracking with target comparisons
 - **Customer Analytics**: Segmentation and behavior analysis
 
-### 🎨 Visualizations
+### Visualizations
 - **Revenue Trends**: Line charts with seasonal patterns
 - **Geographic Analysis**: Regional performance mapping
 - **Product Performance**: Category and individual product analysis
 - **Sales Rep Metrics**: Individual and team performance tracking
 - **Customer Insights**: Satisfaction and retention metrics
 
-### 🔧 Technical Features
+### Technical Features
 - **Responsive Design**: Works on desktop and mobile devices
 - **Export Functionality**: Download data and reports as CSV
 - **Interactive Elements**: Drill-down capabilities and hover details
 - **Performance Optimized**: Cached data processing for fast loading
 - **Professional UI**: Custom CSS styling with business theme
 
-## 📊 Sample Data
+## Sample Data
 
 The dashboard includes comprehensive sample data with:
 
-### Main Dataset (`sales_data.csv`)
+### Main Dataset (sales_data.csv)
 - **50,000+ transaction records** spanning 3 years (2022-2024)
 - **Realistic business patterns** with seasonality and growth trends
 - **Complete transaction details** including pricing, costs, and margins
 
 ### Supporting Datasets
-- `customer_summary.csv` - Customer-level aggregated metrics
-- `product_performance.csv` - Product category and item performance
-- `sales_rep_performance.csv` - Sales representative metrics
-- `monthly_summary.csv` - Time-based aggregated data
+- customer_summary.csv - Customer-level aggregated metrics
+- product_performance.csv - Product category and item performance
+- sales_rep_performance.csv - Sales representative metrics
+- monthly_summary.csv - Time-based aggregated data
 
 ### Data Schema
 ```
@@ -74,7 +76,7 @@ Day_of_Week      - Weekday name
 Week_Number      - Week of year
 ```
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 ```bash
@@ -109,7 +111,7 @@ sales_dashboard/
 └── README.md
 ```
 
-## 📱 Dashboard Sections
+## Dashboard Sections
 
 ### 1. Main Metrics Dashboard
 - **Key Performance Indicators**: Revenue, orders, AOV, products sold
@@ -141,7 +143,7 @@ sales_dashboard/
 - **Return Analysis**: Return rates and impact on profitability
 - **Customer Behavior**: Order patterns and preferences
 
-## 🎯 Business Use Cases
+## Business Use Cases
 
 ### For Sales Managers
 - **Performance Monitoring**: Track team and individual rep performance
@@ -163,7 +165,7 @@ sales_dashboard/
 - **Process Optimization**: Delivery and customer satisfaction metrics
 - **Cost Management**: Shipping and operational cost analysis
 
-## 🔧 Customization Guide
+## Customization Guide
 
 ### Adding Your Own Data
 1. **Replace Sample Data**: Update CSV files with your actual sales data
@@ -190,7 +192,7 @@ st.markdown("""
 - **Advanced Analytics**: Integrate forecasting or ML models
 - **Export Options**: Add PDF or Excel export capabilities
 
-## 📊 Key Metrics Explained
+## Key Metrics Explained
 
 ### Revenue Metrics
 - **Gross Revenue**: Total sales before discounts
@@ -212,7 +214,7 @@ st.markdown("""
 - **Delivery Performance**: Average delivery time
 - **Discount Impact**: Effect of discounts on profitability
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
 ### User Experience
 - **Intuitive Navigation**: Clear visual hierarchy and logical flow
@@ -226,7 +228,7 @@ st.markdown("""
 - **Drill-down Capability**: Ability to investigate anomalies
 - **Executive Summary**: High-level view for leadership
 
-## 🔍 Technical Implementation
+## Technical Implementation
 
 ### Data Processing
 - **Pandas**: Efficient data manipulation and aggregation
@@ -243,22 +245,8 @@ st.markdown("""
 - **Lazy Loading**: Load data only when needed
 - **Efficient Queries**: Optimized data filtering and aggregation
 
-## 📈 Portfolio Value
-
-### Skills Demonstrated
-- **Data Analysis**: Advanced analytics and statistical insights
-- **Visualization**: Professional dashboard design and implementation
-- **Business Intelligence**: KPI definition and performance monitoring
-- **Technical Proficiency**: Python, Streamlit, Plotly ecosystem
-- **UI/UX Design**: User-centered design principles
-
-### Business Impact
-- **Decision Support**: Enable data-driven business decisions
-- **Performance Optimization**: Identify improvement opportunities
-- **Strategic Planning**: Provide insights for future planning
-- **Operational Efficiency**: Streamline reporting and analysis
-
-## 🚀 Deployment Options
+ 
+## Deployment Options
 
 ### Streamlit Cloud (Recommended)
 1. Push code to GitHub repository
@@ -280,9 +268,9 @@ EXPOSE 8501
 CMD ["streamlit", "run", "sales_dashboard.py"]
 ```
 
-## 📚 Learning Resources
+## Learning Resources
 
-### Streamlit Documentation
+### Documentation
 - [Streamlit API Reference](https://docs.streamlit.io/)
 - [Plotly Documentation](https://plotly.com/python/)
 - [Pandas User Guide](https://pandas.pydata.org/docs/)
@@ -292,7 +280,7 @@ CMD ["streamlit", "run", "sales_dashboard.py"]
 - Dashboard Best Practices
 - Data Visualization Principles
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to fork this project and adapt it for your own portfolio. Consider:
 - Adding industry-specific metrics
@@ -300,13 +288,15 @@ Feel free to fork this project and adapt it for your own portfolio. Consider:
 - Creating custom visualization components
 - Optimizing for specific business use cases
 
-## 📞 Support
+## Support
 
 For questions about implementation or customization:
 1. Review the code comments for detailed explanations
 2. Check the Streamlit documentation for component usage
 3. Test with the provided sample data before using your own
 
----
+## Live Demo
 
-**This Sales Dashboard demonstrates professional-level data analysis and visualization skills that are highly valued in Data Analyst, BI Developer, and Business Intelligence roles.**
+Experience the dashboard functionality at: [https://larissalesdashboard.streamlit.app/](https://larissalesdashboard.streamlit.app/)
+
+The live demonstration showcases all features including interactive filtering, real-time analytics, and professional visualization capabilities.
